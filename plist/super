@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>InstallMacOSMajorUpgrades</key>
+    <true/>
+    <key>InstallMacOSMajorVersionTarget</key>
+     <string>15</string>
+     <key>InstallRapidSecurityResponses</key>
+    <true/>
+    <key>InstallMacOSMinorUpgrades</key>
+    <true/>
+    <key>InstallMacOSMinorVersionTarget</key>
+    <string>15</string>
+    <key>InstallNonSystemUpdatesWithoutRestarting</key>
+    <true/>
+   <key>AuthJamfComputerID</key>
+    <string>$JSSID</string>
+    <key>AuthMDMFailoverToUser</key>
+    <string>ALWAYS</string>
+    <key>DeferralTimerMenu</key>
+    <string>60,240,1440</string>
+    <key>DeferralTimerError</key>
+    <string>60</string>
+    <key>DeadlineDaysSoft</key>
+    <string>7</string>
+    <key>ScheduledInstallUserChoice</key>
+    <true/>
+    <key>ScheduledInstallReminder</key>
+    <string>120,60,5</string>
+    <key>DialogTimeoutUserAuth</key>
+    <string>600</string>
+    <key>DisplayHelpButtonString</key>
+    <string>For assistance please contact the helpdesk.</string>
+    <key>DisplayIconFile</key>
+    <string>/var/branding/LogoMark_Symbol_Green-Fill.png</string>
+    <key>DisplayIconSize</key>
+    <string>96</string>
+    <key>DisplayNotificationsCentered</key>
+    <string>ALWAYS</string>
+    <key>WorkflowDisableRelaunch</key>
+    <true/>    
+    <key>TestStorageUpgrade</key>
+    <string>20</string>    
+    <key>DialogTimeoutInsufficientStorage</key>
+    <string>1800</string>
+    <key>DisplayAccessoryDefaultFile</key>
+    <string>https://github.com/mbruno908/Jamf-Scripts/blob/main/Other/super.html</string>
+    <key>DisplayAccessoryType</key>
+    <string>HTML</string>
+  </dict>
+</plist>
